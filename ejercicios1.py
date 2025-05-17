@@ -1,7 +1,7 @@
 '''
-Clase:        Fortalecimiento lógico clase 2
+Clase:        Fortalecimiento lógico clase 1 y 2
 Tema:         Fortalecimiento lógico 
-Ejercicio:    Ver si la contrasña es segura, calculadora de impuestos y numero magico 
+Ejercicio:    Ver el total a pagar de una cuenta, creacion de correo institucional, ver si la contrasña es segura, calculadora de impuestos y numero magico 
 Descripción:  Contraseña, Calculadora de impuestos y numero magico 
 
 Autor:        Jose Rafael Santos Reyes
