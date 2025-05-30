@@ -16,4 +16,4 @@ for i in entrada:
     entrada.remove(max(entrada))
     lider.append(max(entrada))
     
-print(lider)
+print(f"los numeros lideres son: {lider}")
