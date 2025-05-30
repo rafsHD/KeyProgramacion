@@ -1,7 +1,7 @@
 '''
-Clase:        Fortalecimiento lógico clase 3
+Clase:        Fortalecimiento lógico clase 5
 Tema:         Fortalecimiento lógico 
-Ejercicio:    5.4.1 y 5.4.2
+Ejercicio:    5.4.2
 Descripción:  Numero secreto y Sumador de valores posicionales
 
 Autor:        Jose Rafael Santos Reyes

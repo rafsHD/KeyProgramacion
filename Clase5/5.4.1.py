@@ -1,11 +1,11 @@
 '''
-Clase:        Fortalecimiento lógico clase 3
+Clase:        Fortalecimiento lógico clase 5
 Tema:         Fortalecimiento lógico 
-Ejercicio:    5.4.1 y 5.4.2
-Descripción:  Numero secreto y Sumador de valores posicionales
+Ejercicio:    5.4.1 
+Descripción:  Numero secreto 
 
 Autor:        Jose Rafael Santos Reyes
-Fecha:        2025-05-16
+Fecha:        2025-05-30
 Estado:       [Terminado]   
 '''
 import random
