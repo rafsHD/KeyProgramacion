@@ -27,20 +27,3 @@ while acierto:
         acierto == False
         break
         
-print("Ejercicio 5.4.2")
-
-numero = input(("Esribe un numero al azar: "))      
-
-for i in numero:
-    i = int(i)
-    i += [i] + 1
-    
-print(i)
-        
-
-    
-    
-    
-
-
-
