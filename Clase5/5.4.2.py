@@ -2,7 +2,7 @@
 Clase:        Fortalecimiento lógico clase 5
 Tema:         Fortalecimiento lógico 
 Ejercicio:    5.4.2
-Descripción:  Numero secreto y Sumador de valores posicionales
+Descripción:  Sumador de valores posicionales
 
 Autor:        Jose Rafael Santos Reyes
 Fecha:        2025-05-16
