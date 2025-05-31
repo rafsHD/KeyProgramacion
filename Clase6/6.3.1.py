@@ -10,6 +10,7 @@ Estado:       [Terminado]
 '''
 
 entrada = [1, 65, 1, 1, 16, 5, 6, 8, 6, 4]
+print(f"Entrada: {entrada}")
 lider = []
 
 for i in entrada: 
