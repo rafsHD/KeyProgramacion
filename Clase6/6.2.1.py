@@ -10,11 +10,16 @@ Estado:       [Terminado]
 '''
 
 lista = input("Ingrese una serie de numeros: ")
+lista = lista.replace(" ", "")
+
 singulares = []
 
 for i in lista:
     singulares.append(i)
     if singulares.count(i) > 1:
-        singulares.remove(i)     
-print(singulares)
+        singulares.remove(i)  
+        
+singulares_output = str(singulares)
+singulares_output = singulares_output.replace(" ", "")  
+print(singulares_output)
     

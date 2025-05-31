@@ -2,7 +2,7 @@
 Clase:        Fortalecimiento lógico clase 5
 Tema:         Fortalecimiento lógico 
 Ejercicio:    5.4.1 
-Descripción:  Numero secreto 
+Descripción:  Numero lider 
 
 Autor:        Jose Rafael Santos Reyes
 Fecha:        2025-05-30
