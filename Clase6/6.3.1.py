@@ -9,12 +9,20 @@ Fecha:        2025-05-30
 Estado:       [Terminado]   
 '''
 
-entrada = [1, 65, 1, 1, 16, 5, 6, 8, 6, 4]
+entrada = input("Escriba una serie de numeros: ")
+entrada = entrada.split()
+print(max(entrada))
+
+
+
 print(f"Entrada: {entrada}")
 lider = []
 
-for i in entrada: 
-    entrada.remove(max(entrada))
+for i in entrada:
     lider.append(max(entrada))
+    entrada.remove(max(entrada))
+    
+    
+    
     
 print(f"los numeros lideres son: {lider}")

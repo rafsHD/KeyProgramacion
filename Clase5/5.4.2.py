@@ -11,11 +11,23 @@ Estado:       [Terminado]
 
 print("Ejercicio 5.4.2")
 
-numero = input(("Esribe un numero al azar: "))      
+numero = input(("Esribe un numero al azar: "))    
 
-for i in numero:
-    i = int(i)
-    i += [i] + 1
-    
-print(i)
+igualdad = True  
+
+while igualdad: 
+        original = numero 
+        if len(numero) > 1:
+            sumatorias = []
+        for digito in numero: 
+            digito = int(digito)
+            sumatorias.append(digito)
+        numero = str(sum(sumatorias))
+        if len(numero) == 1:
+            print (f"{original} = {numero}")
+            igualdad = False
+        
+            
+            
+print(f"La sumatoria de los digitos es: {numero}")
         
