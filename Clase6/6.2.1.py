@@ -10,7 +10,7 @@ Estado:       [Terminado]
 '''
 
 lista = input("Ingrese una serie de numeros: ")
-lista = lista.replace(" ", "")
+lista = lista.split()
 
 singulares = []
 
@@ -20,6 +20,5 @@ for i in lista:
         singulares.remove(i)  
         
 singulares_output = str(singulares)
-singulares_output = singulares_output.replace(" ", "")  
 print(singulares_output)
     
