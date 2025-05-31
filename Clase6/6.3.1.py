@@ -11,13 +11,18 @@ Estado:       [Terminado]
 
 entrada = input("Escriba una serie de numeros: ")
 entrada = entrada.split()
+entrada = list(map(int, entrada))
 print(max(entrada))
-
 print(f"Entrada: {entrada}")
+max = 0
+
 lider = []
 
-for i in entrada:
-    lider.append(max(entrada))
-    entrada.remove(max(entrada))
-
+for i in reversed(entrada):
+    if i > max:
+        lider.append(i)
+        max = i
+        
+lider.reverse()
+    
 print(f"los numeros lideres son: {lider}")
