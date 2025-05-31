@@ -13,16 +13,11 @@ entrada = input("Escriba una serie de numeros: ")
 entrada = entrada.split()
 print(max(entrada))
 
-
-
 print(f"Entrada: {entrada}")
 lider = []
 
 for i in entrada:
     lider.append(max(entrada))
     entrada.remove(max(entrada))
-    
-    
-    
-    
+
 print(f"los numeros lideres son: {lider}")
