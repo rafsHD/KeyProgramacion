@@ -24,7 +24,7 @@ while igualdad:
             sumatorias.append(digito)
         numero = str(sum(sumatorias))
         if len(numero) == 1:
-            print (f"{original} = {numero}")
+            print (f"La sumatoria de {original} equivale a {numero}")
             igualdad = False
         
             
