@@ -15,7 +15,10 @@ dimension = int(input("Ingrese la dimension de la matriz: "))
 matriz = []
 
 for i in range (dimension):
-    matriz.append(i)
+    filas = []
+    for j in range(dimension):
+        filas.append(i)
+    matriz.append(filas)
     
 print(matriz)
     
