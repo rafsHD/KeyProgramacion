@@ -26,3 +26,4 @@ for i in reversed(entrada):
 lider.reverse()
     
 print(f"los numeros lideres son:", *lider)
+    
