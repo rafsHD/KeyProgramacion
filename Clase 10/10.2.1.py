@@ -12,13 +12,13 @@ Estado:       [Terminado]
 
 dimension = int(input("Ingrese la dimension de la matriz: "))
 
-matriz = []
+numeros = list(range(1, dimension*dimension + 1))
 
+matriz = []
 for i in range (dimension):
-    filas = []
-    for j in range(dimension):
-        filas.append(i)
+    filas = numeros[i*dimension : (i+1)*dimension]
     matriz.append(filas)
+
     
 print(matriz)
     
